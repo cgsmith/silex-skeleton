@@ -1,0 +1,35 @@
+{
+  "application.name": "APPLICATION NAME",
+  "debug": true,
+  "db.options": {
+    "driver": "pdo_mysql",
+    "host": "localhost",
+    "dbname": "database",
+    "user": "root",
+    "password": ""
+  },
+  "twig.path": "views",
+  "twig.templates": {
+    "layout": "layout.twig",
+    "register": "register.twig",
+    "register-confirmation-sent": "register-confirmation-sent.twig",
+    "login": "login.twig",
+    "login-confirmation-needed": "login-confirmation-needed.twig",
+    "forgot-password": "forgot-password.twig",
+    "reset-password": "reset-password.twig",
+    "view": "view.twig",
+    "edit": "edit.twig",
+    "list": "list.twig",
+    "search": {
+      "index": "search/index.twig"
+    }
+  },
+  "swiftmailer.options": {
+    "host": "smtp.mandrillapp.com",
+    "port": 587,
+    "username": "username",
+    "password": "notmypassowrd",
+    "encryption": "tls",
+    "fromAddress": "noreply@email.com"
+  }
+}

@@ -1,0 +1,7 @@
+## Silex Skeleton
+
+This is just a personal silex skeleton that I use on projects
+
+`composer install` should get you operational.
+
+Note: index is messy and will be cleaned up more when I get time.
